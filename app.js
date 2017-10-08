@@ -1,3 +1,5 @@
+const path = require('path');
+
 const yargs = require('yargs');
 const chalk = require('chalk');
 
@@ -27,4 +29,11 @@ const argv = yargs
 
 let notesFile = argv.p;
 
-parse(notesFile);
+let isValidFile = (path.extname(notesFile) === '.txt');
+
+
+if (isValidFile) {
+    parse(notesFile);
+} else {
+    log(chalk `{red.bold This App parses only text files {inverse (files with .txt extension)}}`);
+}

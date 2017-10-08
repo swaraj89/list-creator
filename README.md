@@ -43,6 +43,10 @@
 
 ### FIRST TIME 
 
+To Install Dependencies
+
 `npm install`
+
+To run the program
 
 `node app.js -p path\to\file`

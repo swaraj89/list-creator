@@ -1,0 +1,16 @@
+{
+  "name": "list-creator",
+  "version": "1.0.0",
+  "description": "Create lists from hash tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Swaraj Panigrahi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "promise": "^8.0.1",
+    "yargs": "^9.0.1"
+  }
+}

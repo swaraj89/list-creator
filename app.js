@@ -3,8 +3,8 @@ const path = require('path');
 const yargs = require('yargs');
 const chalk = require('chalk');
 
-const { create } = require('./src/list-creator.js');
-const { parse } = require('./src/list-parser.js');
+const { create } = require('./src/list-creator');
+const { parse } = require('./src/list-parser');
 
 const log = console.log;
 
